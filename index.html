@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Bernardo Marques" />
+    <meta name="description" content="WDD 231: Web Frontend Development I" />
+    <title>WDD 231: Web Frontend Development I - Bernardo Marques</title>
+    <link rel="stylesheet" href="styles/base.css" />
+    <script src="scripts/menu.js" defer></script>
+    <script src="scripts/getDate.js" defer></script>
+    <script src="scripts/courseButtons.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Bernardo Marques</h1>
+      <a id="menu" href="#"></a>
+      <nav>
+        <ul class="navigation">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Chamber</a></li>
+          <li><a href="https://github.com/bermarques">GitHub Profile</a></li>
+          <li>
+            <a href="https://www.linkedin.com/in/bermarques/">LinkedIn</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="group">
+        <section class="card">
+          <h2>Course Work</h2>
+          <ul>
+            <li>
+              <a href="" target="_blank"></a>
+            </li>
+            <li>
+              <a href="" target="_blank"></a>
+            </li>
+            <li>
+              <a href="" target="_blank"></a>
+            </li>
+            <li>
+              <a href="" target="_blank"></a>
+            </li>
+          </ul>
+        </section>
+        <section class="card">
+          <h2>Paraíba, Brazil</h2>
+          <div>
+            <figure>
+              <img src="images/paraiba.webp" width="400" alt="Paraiba beach" />
+              <figcaption>Coqueirinho Beach</figcaption>
+            </figure>
+          </div>
+        </section>
+      </div>
+      <section class="card" id="certificate">
+        <h2>Web and Computer Programming Certificate</h2>
+        <div class="buttons">
+          <input type="button" value="All" id="all" />
+          <input type="button" value="CSE" id="cse" />
+          <input type="button" value="WDD" id="wdd" />
+        </div>
+        <div id="courses"></div>
+      </section>
+    </main>
+    <footer>
+      <p>@ <span id="currentyear"></span> - Bernardo Marques - Brazil</p>
+      <p>Last modification: <span id="lastModified"></span></p>
+    </footer>
+  </body>
+</html>
