@@ -71,7 +71,7 @@ nav {
     display: flex;
   }
   .navigation li {
-    display: block; /* change state in small view */
+    display: block;
     flex: 1 1 100%;
   }
   .navigation a {
@@ -172,6 +172,7 @@ footer p {
 
 #courses {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
 }
 
@@ -200,4 +201,20 @@ footer p {
 .course img {
   width: 20px;
   height: 20px;
+}
+
+/* Mobile */
+@media only screen and (max-width: 40em) {
+  #courses,
+  .group {
+    flex-direction: column;
+  }
+
+  figure {
+    margin: revert;
+  }
+
+  img {
+    width: 100%;
+  }
 }
