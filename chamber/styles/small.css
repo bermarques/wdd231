@@ -113,3 +113,97 @@ footer p {
   filter: invert(100%) sepia(5%) saturate(2%) hue-rotate(29deg) brightness(106%)
     contrast(96%);
 }
+
+.member {
+  display: flex;
+  padding: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  border-bottom: 2px solid #54494b;
+}
+
+.member p {
+  font-size: 0.8rem;
+}
+
+.member h5 {
+  font-size: 1.2rem;
+  color: #54494b;
+  margin: 0.5rem 0 0;
+}
+
+.member a {
+  text-decoration: none;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 5px;
+  align-items: center;
+}
+
+.grid section {
+  text-align: center;
+}
+
+.grid img {
+  border: 1px solid #fff;
+  box-shadow: 0 0 10px #333;
+}
+
+.grid section > * {
+  margin: 0.1rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.list section {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  margin: 0;
+  padding: 0.25rem;
+}
+
+.list section > * {
+  margin: 0 1rem;
+}
+
+.list section img {
+  display: none;
+}
+
+.list section h5 {
+  font-size: 1rem;
+  font-family: Roboto, Helvetica, sans-serif;
+}
+
+.list section:nth-child(even) {
+  background: #54494b;
+  color: #fafafa;
+}
+
+.list section:nth-child(even) h5 {
+  color: #fafafa;
+}
+
+.menu {
+  margin: 1rem auto;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.menu button {
+  padding: 1rem;
+  font-weight: 700;
+}
+
+section {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
+  background-color: #eee;
+}

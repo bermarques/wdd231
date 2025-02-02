@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Afonso Salgados",
+    "address": "Rua Coronel Severino dias Novo, 186 - Nova Brasília, Campina Grande - PB, 58406-730",
+    "phone": "83 98762-0805",
+    "website": "www.afonsosalgodos.com.br",
+    "logo": "images/logo-afonso.jpg",
+    "level": 1
+  },
+  {
+    "name": "Salgados de Luana",
+    "address": "R. Chile, 995 - Nova Brasília, Campina Grande - PB, 58406-790",
+    "phone": "83 98762-0805",
+    "website": "www.salgadosdeluana.com.br",
+    "logo": "images/logo-luana.jpg",
+    "level": 2
+  },
+  {
+    "name": "Império Açaíteria",
+    "address": "R. Gonçalves Dias, 1303 - Nova Brasília, Campina Grande - PB",
+    "phone": "83 98762-0805",
+    "website": "www.imperioacaiteria.com.br",
+    "logo": "images/logo-imperio.jpg",
+    "level": 3
+  },
+  {
+    "name": "Mr. Costa Barbearia",
+    "addres": "Rua Mamede Moisés Raia, 460 - Monte Castelo, Campina Grande - PB, 58407-030",
+    "phone": "83 98762-0805",
+    "website": "www.mrcostabarbearia.com.br",
+    "logo": "images/logo-mrcosta.jpg",
+    "level": 3
+  },
+  {
+    "name": "Régua Spetus",
+    "address": "R. Manoel David de Arruda - Santo Antônio, Campina Grande - PB, 58406-200",
+    "phone": "83 98762-0805",
+    "website": "www.reguaspetus.com.br",
+    "logo": "images/logo-regua.jpg",
+    "level": 2
+  },
+  {
+    "name": "Na'Vi Rooftop",
+    "address": "Av. Mal. Floriano Peixoto, 1350 - 5 andar - Santo Antônio, Campina Grande - PB, 58406-015",
+    "phone": "83 98762-0805",
+    "website": "www.navirooftop.com.br",
+    "logo": "images/logo-navi.jpg",
+    "level": 1
+  },
+  {
+    "name": "Bar Paulo do Peixe",
+    "address": "R. Srg. Édson Sáles, 849-701 - Castelo Branco, Campina Grande - PB, 58406-165",
+    "phone": "83 98762-0805",
+    "website": "www.barpaulodopeixe.com.br",
+    "logo": "images/logo-bar.jpg",
+    "level": 2
+  }
+]
