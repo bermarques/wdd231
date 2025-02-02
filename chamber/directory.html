@@ -5,29 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Bernardo Marques" />
     <meta name="description" content="WDD 231: Web Frontend Development I" />
-    <title>
-      WDD 231: Web Frontend Development I - Bernardo Marques - Prophets
-    </title>
-    <link rel="stylesheet" href="styles/prophets.css" />
-    <script src="scripts/prophets.js" defer></script>
+    <title>WDD 231 Chamber - Bernardo Marques</title>
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+    <script src="scripts/menu.js" defer></script>
+    <script src="scripts/getDate.js" defer></script>
+    <script src="scripts/courseButtons.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" href="favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <meta property="og:title" content="Bernardo Marques WDD231" />
     <meta property="og:type" content="website" />
-    <meta
-      property="og:url"
-      content="https://bermarques.github.io/wdd231/prophets"
-    />
+    <meta property="og:url" content="https://bermarques.github.io/wdd231/" />
     <meta
       property="og:image"
-      content="https://newsroom.churchofjesuschrist.org/media/960x540/president-nelson-portrait-new-2018.jpg"
+      content="https://www.viagenscinematograficas.com.br/wp-content/uploads/2021/01/Joao-Pessoa-Paraiba-Praias-Capa-2-1024x683.jpg"
     />
   </head>
   <body>
     <header>
-      <h1>Latter-day Prophets</h1>
+      <img src="images/logo.png" alt="logo" width="60" height="42" />
+      <button id="hamburgerBtn"></button>
     </header>
+      <nav id="animated">
+        <ul class="menuLinks">
+          <li><a href="#" title="Home">Home</a></li>
+          <li><a href="#" title="Business Directory">Business Directory</a></li>
+          <li><a href="#" title="Join">Join</a></li>
+          <li ><a href="#" title="Discover">Discover</a></li>
+          
+        </ul>
+      </nav>
+      
     <main>
-      <div id="cards" class="grid"></div>
-    </main>
-    <footer>Bernardo Marques | Latter-day Prophets</footer>
+      
+    <footer>
+      <div class="footer-item">
+        <h6>Campina Chamber of Commerce</h6>
+        <p>111 Yayá de Azevedo Dantas</p>
+        <p>Campina Grande, Brazil</p>
+        <p>cgcoc@gmail.com</p>
+        <p>(83) 9 9999-9999</p>
+      </div>
+      <div class="icons">
+        <img src="images/linkedin-icon.svg" alt="LinkedIn icon" width="60" height="48" />
+        <img src="images/youtube-icon.svg" alt="Youtube icon" width="60" height="48" />
+        <img src="images/twitter-icon.svg" alt="LinkedIn icon" width="60" height="48" />
+      </div>
+      <div class="footer-item">
+        <p>WDD231 Class Project</p>
+        <p>Bernardo Marques</p>
+        <p>@ <span id="currentyear"></span> Campina Chamber of Commerce</p>
+        <p>Last modification: <span id="lastModified"></span></p>
+      </div>
+    </footer>
   </body>
 </html>

@@ -1,0 +1,22 @@
+@media only screen and (min-width: 38rem) {
+  #hamburgerBtn {
+    display: none;
+  }
+
+  ul.menuLinks,
+  ul.menuLinks.open {
+    margin: 0;
+    margin-top: -58px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  ul.menuLinks a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  footer {
+    flex-direction: row;
+    align-items: center;
+  }
+}
