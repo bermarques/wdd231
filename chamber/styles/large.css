@@ -20,6 +20,10 @@
     align-items: center;
   }
 
+  header {
+    justify-content: start;
+    gap: 1rem;
+  }
   .member {
     gap: 4rem;
     justify-content: start;

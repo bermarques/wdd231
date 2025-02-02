@@ -59,10 +59,8 @@ const getMembersData = async () => {
   try {
     const res = await fetch("./data/members.json");
     const data = await res.json();
-    console.log(data);
     displayMembers(data);
   } catch (err) {
-    console.log(err);
     throw new Error("Error loading JSON file");
   }
 };
