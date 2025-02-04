@@ -13,8 +13,7 @@
     <link rel="stylesheet" href="styles/large.css" />
     <script src="scripts/menu.js" defer></script>
     <script src="scripts/getDate.js" defer></script>
-    <script src="scripts/toggleView.js" defer></script>
-    <script src="scripts/members.js" defer></script>
+    <script src="scripts/featuredMembers.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -54,13 +53,20 @@
     </nav>
 
     <main>
-      <div class="menu">
-        <button id="grid">⏹️Grid</button>
-        <button id="list">📄List</button>
-      </div>
-      <article class="grid">
-        <div id="members"></div>
-      </article>
+      <section class="masthead" role="img" aria-label="Image Description">
+        <h1>Campina Chamber of Commerce</h1>
+        <a href="join.html"><button>Join</button></a>
+      </section>
+      <section id="home">
+        <h2>Home</h2>
+        <div id="home-grid">
+          <div class="events"><h4>Upcoming Events</h4></div>
+          <div class="current-weather"><h4>Current Weather</h4></div>
+          <div class="weather-forecast"><h4>Weather Forecast</h4></div>
+        </div>
+        <h4>Featured Members</h4>
+        <div class="featured-members"></div>
+      </section>
     </main>
     <footer>
       <div class="footer-item">

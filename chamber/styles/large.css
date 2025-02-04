@@ -1,4 +1,8 @@
 @media only screen and (min-width: 38rem) {
+  main {
+    padding: 0 4rem;
+  }
+
   #hamburgerBtn {
     display: none;
   }
@@ -28,5 +32,45 @@
     gap: 4rem;
     justify-content: start;
     border-left: 8px solid #54494b;
+  }
+
+  #home-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 2rem;
+  }
+
+  h4 {
+    margin-top: 0;
+  }
+
+  .events,
+  .current-weather,
+  .weather-forecast {
+    background: #e0e0e0;
+    min-height: 200px;
+    margin-bottom: 2rem;
+  }
+
+  .featured-members {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .featured-members section {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .featured-members {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media only screen and (max-width: 880px) {
+  .featured-members {
+    grid-template-columns: 1fr;
   }
 }
