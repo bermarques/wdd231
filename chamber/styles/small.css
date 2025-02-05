@@ -287,3 +287,24 @@ h4 {
 .member-data p:first-of-type {
   margin-top: 0;
 }
+
+.event-list {
+  padding: 0 1rem;
+}
+
+.current-weather-container {
+  display: flex;
+  padding: 0 1rem 1rem;
+}
+
+.current-weather-container p {
+  margin: 8px;
+}
+
+figure {
+  margin: 0;
+}
+
+.forecast {
+  padding: 0 1rem 1rem;
+}

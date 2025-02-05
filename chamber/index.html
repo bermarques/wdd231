@@ -14,6 +14,7 @@
     <script src="scripts/menu.js" defer></script>
     <script src="scripts/getDate.js" defer></script>
     <script src="scripts/featuredMembers.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -60,9 +61,45 @@
       <section id="home">
         <h2>Home</h2>
         <div id="home-grid">
-          <div class="events"><h4>Upcoming Events</h4></div>
-          <div class="current-weather"><h4>Current Weather</h4></div>
-          <div class="weather-forecast"><h4>Weather Forecast</h4></div>
+          <div class="events">
+            <h4>Upcoming Events</h4>
+            <div class="event-list">
+              <p>
+                <b>Outlook Conference</b> - Wednesday, February 19 12:00 PM EST
+                - 02:30 PM EST
+              </p>
+              <p>
+                <b>Practical Steps for Chambers & Associations</b> - Tuesday,
+                February 25 03:00 PM EST - 04:00 PM EST
+              </p>
+            </div>
+          </div>
+          <div class="current-weather">
+            <h4>Current Weather</h4>
+            <div class="current-weather-container">
+              <figure>
+                <img id="weather-icon" src="" alt="" />
+                <figcaption></figcaption>
+              </figure>
+              <div>
+                <p><b class="current-temp"></b> F</p>
+                <p class="clouds"></p>
+                <p>High: <span class="weather-high"></span>º</p>
+                <p>Low: <span class="weather-low"></span>º</p>
+                <p>Humidity <span class="weather-humidity">%</span>:</p>
+                <p>Sunrise: <span class="weather-sunrise"></span></p>
+                <p>Sunset: <span class="weather-sunset"></span></p>
+              </div>
+            </div>
+          </div>
+          <div class="weather-forecast">
+            <h4>Weather Forecast</h4>
+            <div class="forecast">
+              <p class="today"></p>
+              <p class="tomorrow"></p>
+              <p class="day-after"></p>
+            </div>
+          </div>
         </div>
         <h4>Featured Members</h4>
         <div class="featured-members"></div>
