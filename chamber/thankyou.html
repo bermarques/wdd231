@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Bernardo Marques" />
+    <meta
+      name="description"
+      content="WDD 231 Chamber Join - Bernardo Marques"
+    />
+    <title>WDD 231 Chamber Join - Bernardo Marques</title>
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+    <script src="scripts/menu.js" defer></script>
+    <script src="scripts/getDate.js" defer></script>
+    <script src="scripts/application.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" href="favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta property="og:title" content="Bernardo Marques WDD231" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://bermarques.github.io/wdd231/chamber/thankyou.html"
+    />
+    <meta
+      property="og:image"
+      content="https://bermarques.github.io/wdd231/chamber/images/logo.png"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.png" alt="logo" width="60" height="42" />
+      <h1>Campina Chamber of Commerce</h1>
+      <button id="hamburgerBtn"></button>
+    </header>
+    <nav id="animated">
+      <ul class="menuLinks">
+        <li><a href="index.html" title="Home">Home</a></li>
+        <li>
+          <a href="directory.html" title="Business Directory"
+            >Business Directory</a
+          >
+        </li>
+        <li class="current-menu-item"><a href="#" title="Join">Join</a></li>
+        <li><a href="#" title="Discover">Discover</a></li>
+      </ul>
+    </nav>
+
+    <main id="thankyou">
+      <h1>Thank you for registering for the Campina Chamber of Commerce!</h1>
+      <p>
+        We will review your application and get back in touch with you soon.
+      </p>
+
+      <div class="application"></div>
+    </main>
+    <footer>
+      <div class="footer-item">
+        <h6>Campina Chamber of Commerce</h6>
+        <p>111 Yayá de Azevedo Dantas</p>
+        <p>Campina Grande, Brazil</p>
+        <p>cgcoc@gmail.com</p>
+        <p>(83) 9 9999-9999</p>
+      </div>
+      <div class="icons">
+        <img
+          src="images/linkedin-icon.svg"
+          alt="LinkedIn icon"
+          width="60"
+          height="48"
+        />
+        <img
+          src="images/youtube-icon.svg"
+          alt="Youtube icon"
+          width="60"
+          height="48"
+        />
+        <img
+          src="images/twitter-icon.svg"
+          alt="LinkedIn icon"
+          width="60"
+          height="48"
+        />
+      </div>
+      <div class="footer-item">
+        <p>WDD231 Class Project</p>
+        <p>Bernardo Marques</p>
+        <p>@ <span id="currentyear"></span> Campina Chamber of Commerce</p>
+        <p>Last modification: <span id="lastModified"></span></p>
+      </div>
+    </footer>
+  </body>
+</html>

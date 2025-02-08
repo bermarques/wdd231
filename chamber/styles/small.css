@@ -474,3 +474,24 @@ dialog button {
   border: 1px solid rgb(0 0 0 / 0.1);
   cursor: pointer;
 }
+
+#thankyou {
+  margin: 3rem;
+}
+
+#thankyou > p {
+  text-align: center;
+}
+
+#thankyou h1 {
+  color: #54494b;
+}
+
+.application {
+  text-align: left;
+  padding: 2rem;
+  background: #e1e1e1;
+  width: 100%;
+  min-height: 200px;
+  border-radius: 4px;
+}
