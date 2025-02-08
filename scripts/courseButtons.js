@@ -113,7 +113,6 @@ wddButton.addEventListener("click", () => {
 
 const courseDetails = document.querySelector("#course-details");
 const displayCourseDetails = (course) => {
-  console.log(courseDetails);
   courseDetails.innerHTML = "";
   courseDetails.innerHTML = `
       <button id="close-modal">❌</button>

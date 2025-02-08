@@ -1,0 +1,56 @@
+[
+  {
+    "level": 1,
+    "name": "Non Profit",
+    "price": 100,
+    "description": "Non-profit organizations, charities, or community groups supporting the local food and beverage industry.",
+    "benefits": [
+      "Businesses aiming to position themselves as industry leaders and gain maximum exposure.",
+      "Access to monthly networking events and community outreach programs.",
+      "Subscription to the chamber’s newsletter with industry updates and trends.",
+      "Discounted rates on chamber-hosted workshops and seminars.",
+      "Opportunity to collaborate with the chamber on community initiatives and events.",
+      "One free ticket to the annual chamber gala or awards dinner."
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Bronze",
+    "price": 250,
+    "description": "New or small businesses looking to establish connections and gain visibility.",
+    "benefits": [
+      "Listing in the chamber’s online directory.",
+      "Access to monthly networking events.",
+      "Subscription to the chamber’s newsletter with industry updates and trends.",
+      "Discounted rates on chamber-hosted workshops and seminars.",
+      "Opportunity to participate in local business showcases."
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Silver",
+    "price": 500,
+    "description": "Established businesses seeking to expand their reach and enhance their reputation.",
+    "benefits": [
+      "All Basic Membership benefits.",
+      "Featured listing in the chamber’s directory with a business logo and description.",
+      "Two free tickets to the annual chamber gala or awards dinner.",
+      "Access to exclusive marketing opportunities, such as social media shoutouts.",
+      "Priority registration for chamber-sponsored events and trade shows."
+    ]
+  },
+  {
+    "level": 4,
+    "name": "Gold",
+    "price": 1000,
+    "description": "Businesses aiming to position themselves as industry leaders and gain maximum exposure.",
+    "benefits": [
+      "All Silver Membership benefits.",
+      "Prominent placement in the chamber’s marketing materials (e.g., website homepage, event banners).",
+      "Four free tickets to the annual chamber gala or awards dinner.",
+      "Opportunity to host or sponsor chamber events, gaining visibility.",
+      "Access to VIP roundtables with local policymakers and industry experts.",
+      "Complimentary admission to all chamber workshops and seminars."
+    ]
+  }
+]
