@@ -84,6 +84,9 @@ const populate = (subject) => {
       courseButton.appendChild(icon);
     }
     coursesDiv.appendChild(courseButton);
+    courseButton.addEventListener("click", () => {
+      displayCourseDetails(course);
+    });
   }
 };
 
@@ -107,3 +110,25 @@ wddButton.addEventListener("click", () => {
   coursesDiv.innerHTML = "";
   populate("WDD");
 });
+
+const courseDetails = document.querySelector("#course-details");
+const displayCourseDetails = (course) => {
+  console.log(courseDetails);
+  courseDetails.innerHTML = "";
+  courseDetails.innerHTML = `
+      <button id="close-modal">❌</button>
+      <h2>${course.subject} ${course.number}</h2>
+      <h3>${course.title}</h3>
+      <p><strong>Credits</strong>: ${course.credits}</p>
+      <p><strong>Certificate</strong>: ${course.certificate}</p>
+      <p>${course.description}</p>
+      <p><strong>Technologies</strong>: ${course.technology.join(", ")}</p>
+  `;
+
+  courseDetails.showModal();
+
+  const closeModal = document.querySelector("#close-modal");
+  closeModal.addEventListener("click", () => {
+    courseDetails.close();
+  });
+};
