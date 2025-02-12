@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Sólon de Lucena",
+    "address": "Parque Sólon de Lucena, João Pessoa - PB",
+    "description": "Lake surrounded by a tree-lined trail and a grassy area in a famous park with restaurants and kiosks.",
+    "image": "./images/photo_8.webp"
+  },
+  {
+    "title": "Cotton Museum",
+    "address": "R. Benjamin Constant, Campina Grande - PB",
+    "description": "In an old train station, this museum features exhibitions on the regional cotton industry.",
+    "image": "./images/photo_2.webp"
+  },
+  {
+    "title": "Parque da Criança",
+    "address": "Av. Dr. Elpídio de Almeida, Campina Grande - PB",
+    "description": "Green space by the lake surrounded by palm trees, sports courts, recreation areas, and parking.",
+    "image": "./images/photo_3.webp"
+  },
+  {
+    "title": "Historic Museum of Campina Grande",
+    "address": "Av. Mal. Floriano Peixoto, Campina Grande - PB",
+    "description": "A century-old heritage-listed building houses a collection of various curiosities related to the region's history and customs.",
+    "image": "./images/photo_4.webp"
+  },
+  {
+    "title": "Borbonera Pioneers",
+    "address": "Av. Mal. Floriano Peixoto, Campina Grande - PB",
+    "description": "The statues, brought from Rio de Janeiro, represent three historical figures who helped build Campina Grande.",
+    "image": "./images/photo_5.webp"
+  },
+  {
+    "title": "Borbonera Pioneers",
+    "address": "R. Sebastião Donato, Campina Grande - PB",
+    "description": "Vibrant outdoor space with live shows and seasonal festivals, along with food and beverage kiosks.",
+    "image": "./images/photo_6.webp"
+  },
+  {
+    "title": "SESI Digital Museum",
+    "address": "R. Miguel Couto, Campina Grande - PB",
+    "description": "Vibrant outdoor space with live shows and seasonal festivals, along with food and beverage kiosks.",
+    "image": "./images/photo_7.webp"
+  },
+  {
+    "title": "Popular Arts Museum of Paraíba",
+    "address": "R. Dr. Severino Cruz, Campina Grande - PB",
+    "description": "Vibrant outdoor space with live shows and seasonal festivals, along with food and beverage kiosks.",
+    "image": "./images/photo_1.webp"
+  }
+]

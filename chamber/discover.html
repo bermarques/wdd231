@@ -6,15 +6,14 @@
     <meta name="author" content="Bernardo Marques" />
     <meta
       name="description"
-      content="WDD 231 Chamber Home - Bernardo Marques"
+      content="WDD 231 Chamber Discovery - Bernardo Marques"
     />
-    <title>WDD 231 Chamber Home - Bernardo Marques</title>
+    <title>WDD 231 Chamber Discovery - Bernardo Marques</title>
     <link rel="stylesheet" href="styles/small.css" />
     <link rel="stylesheet" href="styles/large.css" />
     <script src="scripts/menu.js" defer></script>
     <script src="scripts/getDate.js" defer></script>
-    <script src="scripts/featuredMembers.js" defer></script>
-    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/discover.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -27,7 +26,7 @@
     <meta property="og:type" content="website" />
     <meta
       property="og:url"
-      content="https://bermarques.github.io/wdd231/chamber/index.html"
+      content="https://bermarques.github.io/wdd231/chamber/discover.html"
     />
     <meta
       property="og:image"
@@ -42,68 +41,22 @@
     </header>
     <nav id="animated">
       <ul class="menuLinks">
-        <li class="current-menu-item"><a href="#" title="Home">Home</a></li>
+        <li><a href="index.html" title="Home">Home</a></li>
         <li>
           <a href="directory.html" title="Business Directory"
             >Business Directory</a
           >
         </li>
-        <li><a href="join.html" title="Join">Join</a></li>
+        <li class="current-menu-item"><a href="#" title="Join">Join</a></li>
         <li><a href="discover.html" title="Discover">Discover</a></li>
       </ul>
     </nav>
 
-    <main>
-      <section class="masthead">
-        <h1>Campina Chamber of Commerce</h1>
-        <button onclick="location.href='join.html'" type="button">Join</button>
-      </section>
-      <section id="home">
-        <h2>Home</h2>
-        <div id="home-grid">
-          <div class="events">
-            <h4>Upcoming Events</h4>
-            <div class="event-list">
-              <p>
-                <b>Outlook Conference</b> - Wednesday, February 19 12:00 PM EST
-                - 02:30 PM EST
-              </p>
-              <p>
-                <b>Practical Steps for Chambers & Associations</b> - Tuesday,
-                February 25 03:00 PM EST - 04:00 PM EST
-              </p>
-            </div>
-          </div>
-          <div class="current-weather">
-            <h4>Current Weather</h4>
-            <div class="current-weather-container">
-              <figure>
-                <img id="weather-icon" src="images/" alt="icon" />
-                <figcaption></figcaption>
-              </figure>
-              <div>
-                <p><b class="current-temp"></b> F</p>
-                <p class="clouds"></p>
-                <p>High: <span class="weather-high"></span>º</p>
-                <p>Low: <span class="weather-low"></span>º</p>
-                <p>Humidity <span class="weather-humidity">%</span>:</p>
-                <p>Sunrise: <span class="weather-sunrise"></span></p>
-                <p>Sunset: <span class="weather-sunset"></span></p>
-              </div>
-            </div>
-          </div>
-          <div class="weather-forecast">
-            <h4>Weather Forecast</h4>
-            <div class="forecast">
-              <p class="today"></p>
-              <p class="tomorrow"></p>
-              <p class="day-after"></p>
-            </div>
-          </div>
-        </div>
-        <h4>Featured Members</h4>
-        <div class="featured-members"></div>
-      </section>
+    <main id="discover">
+      <h1>Discover - Campina Chamber of Commerce</h1>
+      <div id="lastVisit"></div>
+
+      <div class="discover-grid"></div>
     </main>
     <footer>
       <div class="footer-item">
