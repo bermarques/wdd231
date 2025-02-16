@@ -45,6 +45,11 @@ const displayCards = (movies) => {
   if (localStorageItems.length > 0) {
     grid.innerHTML = "";
   }
+  if (localStorageItems.length === 0) {
+    const h5 = document.createElement("h5");
+    h5.innerHTML = "No favorited movies. Click on the ⭐ icon do add one";
+    grid.appendChild(h5);
+  }
   movies.forEach((movie) => {
     const card = document.createElement("div");
     card.onclick = () => displayModal(movie);
