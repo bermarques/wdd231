@@ -28,11 +28,15 @@
   #movie-list {
     width: 30vh;
     min-height: 100vh;
-    position: fixed;
-    top: 60px;
-    left: 0;
+    position: sticky;
+    top: 0;
     background-color: #112d4e;
     display: inline-block;
+  }
+
+  #catalogue-main {
+    display: flex;
+    height: 100vh;
   }
 
   #movie-grid {
@@ -41,7 +45,8 @@
   }
 
   #content {
-    margin-left: 30vh;
+    flex: 1;
     padding: 2rem;
+    overflow-y: auto;
   }
 }

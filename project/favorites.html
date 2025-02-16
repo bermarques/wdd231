@@ -15,21 +15,21 @@
     <meta property="og:type" content="website" />
     <meta
       property="og:url"
-      content="https://bermarques.github.io/wdd231/project/index.html"
+      content="https://bermarques.github.io/wdd231/project/favorites.html"
     />
     <meta
       property="og:image"
       content="https://www.viagenscinematograficas.com.br/wp-content/uploads/2021/01/Joao-Pessoa-Paraiba-Praias-Capa-2-1024x683.jpg"
     />
 
-    <title>Movie Catalogue</title>
+    <title>Favorites - Movie Catalogue</title>
     <meta name="author" content="Bernardo Marques" />
     <meta
       name="description"
       content="WDD 231: Web Frontend Development I Project - Bernardo Marques"
     />
     <script src="scripts/menu.js" defer></script>
-    <script src="scripts/nowPlaying.js" defer></script>
+    <script src="scripts/favorites.js" defer></script>
   </head>
   <body>
     <header>
@@ -38,26 +38,18 @@
     </header>
     <nav id="animated">
       <ul class="menuLinks">
-        <li class="current-menu-item"><a href="#" title="Home">Home</a></li>
-        <li>
+        <li><a href="index.html" title="Home">Home</a></li>
+        <li class="current-menu-item">
           <a href="favorites.html" title="Favorites">Favorites</a>
         </li>
         <li><a href="suggestions.html" title="Suggestions">Suggestions</a></li>
       </ul>
     </nav>
     <main id="catalogue-main">
-      <aside id="movie-list">
-        <ul>
-          <li class="current-menu-item">
-            <a href="index.html">Now Playing</a>
-          </li>
-          <li><a href="popular.html">Popular</a></li>
-          <li><a href="toprated.html">Top Rated</a></li>
-          <li><a href="upcoming.html">Upcoming</a></li>
-        </ul>
-      </aside>
       <div id="content">
-        <div id="movie-grid"></div>
+        <div id="movie-grid">
+          <h5>No favorited movies. Click on the ⭐ icon do add one</h5>
+        </div>
       </div>
     </main>
   </body>
