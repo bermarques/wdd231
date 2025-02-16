@@ -36,7 +36,6 @@
 
   #catalogue-main {
     display: flex;
-    height: 100vh;
   }
 
   #movie-grid {

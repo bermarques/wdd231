@@ -161,6 +161,7 @@ nav.open {
 }
 
 /* Main */
+
 #movie-list {
   background: #112d4e;
 }
@@ -350,4 +351,18 @@ dialog button {
   background: none;
   border: none;
   cursor: pointer;
+}
+
+footer {
+  background: #112d4e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
+
+footer p {
+  margin: 0;
+  color: #fafafa;
 }
