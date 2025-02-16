@@ -1,4 +1,5 @@
 const urlImage = "https://image.tmdb.org/t/p/w154/";
+const modal = document.querySelector("#modal");
 
 const formattedDate = (date) =>
   new Date(date).toLocaleDateString("en-US", {
@@ -6,6 +7,22 @@ const formattedDate = (date) =>
     month: "short",
     day: "numeric",
   });
+
+const displayModal = async (movie) => {
+  modal.innerHTML = "";
+  modal.innerHTML = `
+        <button id="close-modal">❌</button>
+        <h2>${movie.title}</h2>
+        <p>${movie.overview}</p>
+    `;
+
+  modal.showModal();
+
+  const closeModal = document.querySelector("#close-modal");
+  closeModal.addEventListener("click", () => {
+    modal.close();
+  });
+};
 
 const handleStorage = (movie, id) => {
   let localStorageItems =
@@ -28,6 +45,7 @@ const handleStorage = (movie, id) => {
     poster_path: movie.poster_path,
     release_date: movie.release_date,
     vote_average: movie.vote_average,
+    overview: movie.overview,
   };
   localStorageItems.push(movieData);
   localStorage.setItem(
@@ -44,6 +62,7 @@ const displayCards = (movies) => {
 
   movies.forEach((movie) => {
     const card = document.createElement("div");
+    card.onclick = () => displayModal(movie);
     card.className = "movie-card";
     const findItem = () =>
       localStorageItems.find((item) => item.id === movie.id);
@@ -53,7 +72,10 @@ const displayCards = (movies) => {
     favorite.textContent = findItem() ? "❌" : "⭐";
     favorite.title = "Add to favorite";
     favorite.id = movie.id;
-    favorite.onclick = () => handleStorage(movie, movie.id);
+    favorite.onclick = (e) => {
+      e.stopPropagation();
+      handleStorage(movie, movie.id);
+    };
     card.appendChild(favorite);
     const img = document.createElement("img");
     img.src = urlImage + movie.poster_path;
@@ -78,7 +100,7 @@ const displayCards = (movies) => {
   });
 };
 
-const getNowPlaying = async () => {
+const getUpcoming = async () => {
   try {
     const response = await fetch("./data/upcoming.json");
     const data = await response.json();
@@ -88,4 +110,4 @@ const getNowPlaying = async () => {
   }
 };
 
-getNowPlaying();
+getUpcoming();

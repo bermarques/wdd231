@@ -45,6 +45,7 @@ const handleStorage = (movie, id) => {
     poster_path: movie.poster_path,
     release_date: movie.release_date,
     vote_average: movie.vote_average,
+    overview: movie.overview,
   };
   localStorageItems.push(movieData);
   localStorage.setItem(
