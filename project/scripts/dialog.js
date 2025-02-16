@@ -20,13 +20,3 @@ const displayMembershipDetails = async (level) => {
     modal.close();
   });
 };
-
-getMembershipDetails = async () => {
-  try {
-    const res = await fetch("./data/movieDetails.json");
-    const data = await res.json();
-    return data;
-  } catch (err) {
-    throw new Error("Error loading JSON file");
-  }
-};

@@ -217,6 +217,13 @@ aside ul li a {
   right: 6px;
   top: 6px;
   cursor: pointer;
+  padding: 4px;
+  transition: 200ms;
+  border-radius: 50%;
+}
+
+.favorite:hover {
+  background: #e3e3e381;
 }
 
 #movie-grid {
