@@ -5,3 +5,8 @@ hamburgerElement.addEventListener("click", () => {
   hamburgerElement.classList.toggle("open");
   navElement.classList.toggle("open");
 });
+
+let timestampField = document.querySelector("#timestamp");
+addEventListener("submit", () => {
+  timestamp.value = Date.now();
+});

@@ -65,7 +65,7 @@ const displayCards = (movies) => {
   });
 };
 
-const getNowPlaying = async () => {
+const getNowPlaying = () => {
   let localStorageItems =
     JSON.parse(window.localStorage.getItem("movieCatalogueFavorites")) || [];
   displayCards(localStorageItems);

@@ -79,9 +79,13 @@ const displayCards = (movies) => {
 };
 
 const getNowPlaying = async () => {
-  const response = await fetch("./data/upcoming.json");
-  const data = await response.json();
-  displayCards(data.results);
+  try {
+    const response = await fetch("./data/upcoming.json");
+    const data = await response.json();
+    displayCards(data.results);
+  } catch (err) {
+    throw new Error("Error loading JSON file");
+  }
 };
 
 getNowPlaying();

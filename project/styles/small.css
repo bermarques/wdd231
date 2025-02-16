@@ -183,6 +183,7 @@ aside ul li a {
 
 .movie-card h3 {
   margin: 0;
+  color: #112d4e;
   font-size: 1rem;
 }
 
@@ -192,6 +193,7 @@ aside ul li a {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   border: 1px solid #e3e3e3;
   position: relative;
+  cursor: pointer;
 }
 
 .movie-card img {
@@ -234,4 +236,118 @@ aside ul li a {
   color: #fafafa;
   font-weight: 600;
   font-size: 0.7rem;
+}
+
+#form {
+  margin-bottom: 3rem;
+  background: white;
+  border-radius: 20px;
+  padding: 3rem 2rem;
+  width: 100%;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border: 2px solid #e1e1e1;
+  border-radius: 12px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #112d4e;
+  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.send-btn {
+  width: 100%;
+  padding: 1rem;
+  background: #112d4e;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.send-btn:hover {
+  transform: translateY(-2px);
+}
+
+.send-btn:active {
+  transform: translateY(0);
+}
+
+textarea {
+  resize: none;
+}
+
+#thankyou {
+  margin: 3rem;
+}
+
+#thankyou > p {
+  text-align: center;
+}
+
+#thankyou h1 {
+  color: #112d4e;
+}
+
+.suggestion {
+  text-align: left;
+  padding: 2rem;
+  background: #dbe2ef;
+  width: 100%;
+  min-height: 200px;
+  border-radius: 4px;
+}
+
+dialog {
+  border: 1px solid rgb(0 0 0 / 0.1);
+  border-radius: 0.25rem;
+  padding: 1rem;
+  background-color: #dbe2ef;
+  box-shadow: 0 0 3rem #777;
+  width: 80%;
+  max-width: 600px;
+  transition: 200ms;
+  font-size: 0.9rem;
+}
+
+dialog h2 {
+  color: #112d4e;
+}
+::backdrop {
+  background-color: rgb(0 0 0 / 0.5);
+}
+
+dialog button {
+  position: absolute;
+  top: 8px;
+  right: 0px;
+  padding: 0.5rem 1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
