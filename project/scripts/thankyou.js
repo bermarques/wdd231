@@ -6,7 +6,7 @@ const showApplicationDetails = () => {
 
   applicationDiv.innerHTML = "";
   applicationDiv.innerHTML = `<h2>Your Suggestion ticket:</h2>
-  <p><strong>Name</strong>: ${formData.get("name")} ${formData.get("name")}</p>
+  <p><strong>Name</strong>: ${formData.get("name")}</p>
   <p><strong>Email</strong>: ${formData.get("email")}</p>
   <p><strong>Suggestion</strong>: ${formData.get("description")}</p>
   <p><strong>Ticket time</strong>: ${new Date(
