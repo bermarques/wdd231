@@ -1,0 +1,47 @@
+@media only screen and (min-width: 38rem) {
+  /* Header */
+
+  #hamburgerBtn {
+    display: none;
+  }
+
+  ul.menuLinks,
+  ul.menuLinks.open {
+    margin: 0;
+    margin-top: -58px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  ul.menuLinks a:hover,
+  #movie-list ul a:hover {
+    transition: 200ms;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  header {
+    justify-content: start;
+    gap: 1rem;
+  }
+
+  #movie-list {
+    width: 30vh;
+    min-height: 100vh;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    background-color: #112d4e;
+    display: inline-block;
+  }
+
+  #movie-grid {
+    padding: 0rem;
+    justify-content: flex-start;
+  }
+
+  #content {
+    margin-left: 30vh;
+    padding: 2rem;
+  }
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/small.css" />
+    <link rel="stylesheet" href="./styles/large.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <meta property="og:title" content="Bernardo Marques WDD231 Project" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://bermarques.github.io/wdd231/project/index.html"
+    />
+    <meta
+      property="og:image"
+      content="https://www.viagenscinematograficas.com.br/wp-content/uploads/2021/01/Joao-Pessoa-Paraiba-Praias-Capa-2-1024x683.jpg"
+    />
+
+    <title>Movie Catalogue</title>
+    <meta name="author" content="Bernardo Marques" />
+    <meta
+      name="description"
+      content="WDD 231: Web Frontend Development I Project - Bernardo Marques"
+    />
+    <script src="scripts/menu.js" defer></script>
+    <script src="scripts/movies.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>MC</h1>
+      <button id="hamburgerBtn"></button>
+    </header>
+    <nav id="animated">
+      <ul class="menuLinks">
+        <li class="current-menu-item"><a href="#" title="Home">Home</a></li>
+        <li>
+          <a href="favorites.html" title="Favorites">Favorites</a>
+        </li>
+        <li><a href="suggestions.html" title="Suggestions">Suggestions</a></li>
+      </ul>
+    </nav>
+    <main>
+      <aside id="movie-list">
+        <ul>
+          <li class="current-menu-item">
+            <a href="nowplaying.html" target="_blank">Now Playing</a>
+          </li>
+          <li><a href="popular.html" target="_blank">Popular</a></li>
+          <li><a href="toprated.html" target="_blank">Top Rated</a></li>
+          <li><a href="upcoming.html" target="_blank">Upcoming</a></li>
+        </ul>
+      </aside>
+      <div id="content">
+        <div id="movie-grid"></div>
+      </div>
+    </main>
+  </body>
+</html>
